@@ -1,4 +1,4 @@
-function [ridges,tangentOrientations,widths,heights] = CSHRMgetRidges(img,shearletSystem,minContrast,offset,onlyPositiveOrNegativeRidges)
+function [ridges,tangentOrientations,widths,heights] = CSHRMgetRidges(img,shearletSystem,minContrast,offset,onlyPositiveOrNegativeRidges,coeffs)
 % CSHRMgetRidges Compute the complex shearlet-based ridge measure of a 2D grayscale image.
 % 
 % Usage (optional parameters are enclosed in angle brackets):
@@ -35,7 +35,7 @@ function [ridges,tangentOrientations,widths,heights] = CSHRMgetRidges(img,shearl
     if (nargin < 4), offset = 1; end
     if (nargin < 5), onlyPositiveOrNegativeRidges = 0; end
     
-    coeffs = CSHRMsheardec(img,shearletSystem);
+    %coeffs = CSHRMsheardec(img,shearletSystem);
     offset = floor(offset*shearletSystem.scalesPerOctave);
     nOrientations = 2*(2^shearletSystem.shearLevel+2);
     coeffs = reshape(coeffs,size(coeffs,1),size(coeffs,2),nOrientations,size(coeffs,3)/(nOrientations));
