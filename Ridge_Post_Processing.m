@@ -5,11 +5,16 @@
 %
 % binary ridge image -> segmentation -> skeletonization -> poyline fitting
 %
-% Uses functions from Geom2D Toolbox by David Legland, CoSHREM Toolbox
+% Calls functions from Geom2D Toolbox by David Legland, CoSHREM Toolbox
 % by Rafael Reisenhofer and MATLAB Image Processing Toolbox
 %       -> CSHRMgetOverlay.m (from CoSHREM Toolbox)
 %       -> polynomialCurveSetFit.m (from Geom2D Toolbox)
 %       -> drawPolynomialCurve.m (from Geom2D Toolbox)
+%       -> minDistancePoints.m (from Geom2D Toolbox)
+%       -> parametrize.m (from Geom2D Toolbox)
+%       -> polynomialCurveFit.m (from Geom2D Toolbox)
+%       -> polynomialCurvePoint.m (from Geom2D Toolbox)
+%       -> polynomialCurveSetFit.m (from Geom2D Toolbox)
 %--------------------------------------------------------------------------
 clc
 clear all
