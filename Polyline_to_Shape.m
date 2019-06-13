@@ -3,7 +3,7 @@
 % georeferenced shape files (if there is georeferencing information)      %
 % which can then be viewed in QGIS / ArcGIS. The polylines can be         %
 % simplified before writing as a shapefile using the Douglas-Peucker line %
-% simplification algorithm.                                               %
+% simplification algorithm. Requires MATLAB Mapping Toolbox               %
 %                                                                         %
 % Reza Ahmadzadeh's implementation of the Douglas-Peucker algorithm       %
 % (from MATLAB File Exchange) is used                                     %
