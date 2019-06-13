@@ -37,7 +37,8 @@ can replicate the results in the manuscript. The images are sourced from the fol
 3. Parmelan_Tile: Prabhakaran, R., Bruna, P.-O., Bertotti, G., Smeulders, D., and Meda, M.: Fracture Network Patterns from the Parmelan Anticline, France),4TU Centre for Research Data. Dataset, https://doi.org/10.4121/uuid:3f5e255f-edf7-441f-89f2-1adc7ac2f7d1, 2019b.
 
 -> The "Dependencies" folder contains MATLAB functions that are sourced from the open-source MATLAB toolboxes, CosHREM and Geom2D, and which are used in the MATLAB scripts. The Douglas-Peucker implementation is sourced from the code of Reza Ahmadzadeh on the
-MATLAB File Exchange. The complete CoSHREM toolbox can be downloaded from http://www.math.uni-bremen.de/cda/software.html. 
+MATLAB File Exchange. The complete CoSHREM toolbox can be downloaded from http://www.math.uni-bremen.de/cda/software.html. The Geom2D
+toolbox can be downloaded from https://nl.mathworks.com/matlabcentral/fileexchange/7844-geom2d.
 
 -> The "Mex" folder contains C++ executables that are used by the MATLAB scripts. Compilation is necessary for them to work. They are from the open-source Complex Shearlet Toolbox (CoSHREM). Please refer to : "Reisenhofer, R., Kiefer, J., and King, E. J.: Shearlet-based detection of flame fronts, Experiments in Fluids, 57, 41, https://doi.org/10.1007/s00348-016-2128-6, 2016" for a detailed description of the CoSHREM toolbox. 
 
