@@ -4,7 +4,7 @@
 %  Copyright Rahul Prabhakaran, TU Delft, 2019
 %  
 %
-%  Code used in Manuscript: An automated fracture trace detection technique 
+%  Part of Manuscript: An automated fracture trace detection technique 
 %  using the complex shearlet transform, submitted to Solid Earth
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -21,13 +21,17 @@
 %  
 %  The code uses functions from the following toolboxes:
 %  1. CoSHREM Toolbox by Rafael Reisenhofer 
-%       -> CSHRMgetContRidgeSystem ()
-%       -> CSHRMsheardec()
-%       -> CSHRMgetContRidgeSystem ()
-
-%  2. Geom2D Toolbox by David Legland -> polyline fitting
-%  3. MATLAB Mapping Toolbox -> for shapefile I/O operations
-%  4. MATLAB Image Processing Toolbox 
+%       -> CSHRMgetContRidgeSystem.m
+%       -> CSHRMsheardec.m
+%       -> CSHRMgetContRidgeSystem.m
+%       -> CSHRMgetConeOris.m
+%       -> CSHRMgetContShearlet.m
+%       -> SLdshear.m
+%       -> CSHRMgetRidges.m
+%       -> CSHRMmapOrientationsToAngles.m
+%       -> SLpadArray.m
+%       -> yapuls.m
+%  2. MATLAB Image Processing Toolbox 
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
