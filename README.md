@@ -1,15 +1,8 @@
 # Automatic-Fracture-Detection-Code (supplement to Solid Earth manuscript "se-2019-104")
 
- This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published   by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-
- This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
- 
- --------------------------------------------------------------------------------------------------------------------------------------
-
 This repository contains MATLAB scripts that implement a method to extract digitized fractures from images of fractured rocks. The method is described in the manuscript titled ,"An automated fracture trace detection technique using the complex shearlet transform"(se-2019-104) that is submitted to Solid Earth Journal (https://www.solid-earth.net/). 
 
-The MATLAB files in this repository consists of four MATLAB scripts that perform the following functions:
+The MATLAB files in this repository consists of MATLAB scripts that perform the following functions:
 
   1. Ridge_Ensemble_Generator.m 
                                 -> creates a set of shearlet systems based on user-defined ranges and saves them as *.mat files
@@ -43,10 +36,10 @@ can replicate the results in the manuscript. The images are sourced from the fol
 
 3. Parmelan_Tile: Prabhakaran, R., Bruna, P.-O., Bertotti, G., Smeulders, D., and Meda, M.: Fracture Network Patterns from the Parmelan Anticline, France),4TU Centre for Research Data. Dataset, https://doi.org/10.4121/uuid:3f5e255f-edf7-441f-89f2-1adc7ac2f7d1, 2019b.
 
--> The "Dependencies" folder contains MATLAB functions that are sourced from the open-source MATLAB toolboxes, CosHREM and Geom2D, and which are used in the MATLAB scripts. The Douglas-Peucker implementation is sourced from the implementation of Reza Ahmadzadeh on the
-MATLAB File Exchange.
+-> The "Dependencies" folder contains MATLAB functions that are sourced from the open-source MATLAB toolboxes, CosHREM and Geom2D, and which are used in the MATLAB scripts. The Douglas-Peucker implementation is sourced from the code of Reza Ahmadzadeh on the
+MATLAB File Exchange. The complete CoSHREM toolbox can be downloaded from http://www.math.uni-bremen.de/cda/software.html. 
 
--> The "Mex" folder contains C++ executables that are used by the MATLAB scripts. They are from the open-source Complex Shearlet Toolbox (CoSHREM). Please refer to : "Reisenhofer, R., Kiefer, J., and King, E. J.: Shearlet-based detection of flame fronts, Experiments in Fluids, 57, 41, https://doi.org/10.1007/s00348-016-2128-6, 2016" for a detailed description of the CoSHREM toolbox.
+-> The "Mex" folder contains C++ executables that are used by the MATLAB scripts. Compilation is necessary for them to work. They are from the open-source Complex Shearlet Toolbox (CoSHREM). Please refer to : "Reisenhofer, R., Kiefer, J., and King, E. J.: Shearlet-based detection of flame fronts, Experiments in Fluids, 57, 41, https://doi.org/10.1007/s00348-016-2128-6, 2016" for a detailed description of the CoSHREM toolbox. 
 
 -> yapuls.m is obtained from Yet Another Wavelet Toolbox (YAWTb), which can be downloaded from http://sites.uclouvain.be/ispgroup/yawtb/
 
