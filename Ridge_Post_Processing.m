@@ -14,7 +14,7 @@ close all
 format compact
 
 %% select binarized ridge files to be opened
-    disp('Select multiple Ridges files (they must be in a single folder)');
+    disp('Select multiple binarized ridges files (they must be in a single folder)');
     [InFileListShort, pathname] = uigetfile('*.jpg;*.tif;*.png','Select input image files','MultiSelect','on');
     
     if not(iscell(InFileListShort))
@@ -29,7 +29,7 @@ format compact
     addpath(genpath(funPath)); 
     
 %% select source images to create overlays for visual comparison
-    disp('Select multiple Ridges files (they must be in a single folder)');
+    disp('Select source image files (they must be in a single folder)');
     [InFileListShort2, pathname2] = uigetfile('*.jpg;*.tif;*.png','Select input image files','MultiSelect','on');
     
     if not(iscell(InFileListShort2))
