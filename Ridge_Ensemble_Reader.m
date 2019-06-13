@@ -14,6 +14,8 @@
 %  Summary of Operations  
 %   ridge ensemble -> normalized ridge ensemble -> sigmoided normalized...
 %  ..ridge ensemble -> binarized ridge
+%
+%  uses MATLAB Image Processing Toolbox Functions
 %--------------------------------------------------------------------------
 clc
 clear all
