@@ -25,6 +25,7 @@ The MATLAB files in this repository consists of four MATLAB scripts that perform
                                 -> performs line simplification of polylines using the Douglas-Peucker algorithm (if necessary)
                                 -> converts polylines into shapefiles structures and saves as shapefiles
 
+
 The "Examples" folder contains images which are referred to in the manuscript. These are provided so that the user of this repository
 can replicate the results in the manuscript. The images are sourced from the following sources:
    
@@ -34,8 +35,8 @@ can replicate the results in the manuscript. The images are sourced from the fol
 
 3. Parmelan_Tile: Prabhakaran, R., Bruna, P.-O., Bertotti, G., Smeulders, D., and Meda, M.: Fracture Network Patterns from the Parmelan Anticline, France),4TU Centre for Research Data. Dataset, https://doi.org/10.4121/uuid:3f5e255f-edf7-441f-89f2-1adc7ac2f7d1, 2019b.
 
-The "Dependencies" folder contains MATLAB functions that are sourced from the open-source MATLAB toolboxes, CosHREM and Geom2D, and which are used in the MATLAB scripts.
-
+The "Dependencies" folder contains MATLAB functions that are sourced from the open-source MATLAB toolboxes, CosHREM and Geom2D, and which are used in the MATLAB scripts. The Douglas-Peucker implementation is sourced from the implementation of Reza Ahmadzadeh on the
+MATLAB File Exchange.
 
 The "Mex" folder contains C++ executables that are used by the MATLAB scripts. They are from the open-source Complex Shearlet Toolbox (CoSHREM). Please refer to : "Reisenhofer, R., Kiefer, J., and King, E. J.: Shearlet-based detection of flame fronts, Experiments in Fluids, 57, 41, https://doi.org/10.1007/s00348-016-2128-6, 2016" for a detailed description of the CoSHREM toolbox.
 
