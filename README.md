@@ -1,4 +1,4 @@
-# Automatic-Fracture-Detection-Code (supplement to Solid Earth manuscript "se-2019-104")
+# Automatic-Fracture-Detection-Code (supplement to Solid Earth Manuscript "se-2019-104")
 
 This repository contains MATLAB scripts that implement a method to extract digitized fractures from images of fractured rocks. The method is described in the manuscript titled ,"An automated fracture trace detection technique using the complex shearlet transform"(se-2019-104) that is submitted to Solid Earth Journal (https://www.solid-earth.net/). 
 
