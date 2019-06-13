@@ -3,7 +3,7 @@ This repository contains MATLAB scripts that implement a method to extract digit
 is described in the manuscript titled ,"An automated fracture trace detection technique using the complex shearlet transform"(se-2019-104)
 that is submitted to Solid Earth Journal (https://www.solid-earth.net/). 
 
-The files in this repository consists of four MATLAB scripts that perform the following functions:
+The MATLAB files in this repository consists of four MATLAB scripts that perform the following functions:
   1. Ridge_Ensemble_Generator.m 
                                 -> creates a set of shearlet systems based on user-defined ranges and saves them as *.mat files
                                 -> reads a set of images of fractured rocks
@@ -25,3 +25,7 @@ The files in this repository consists of four MATLAB scripts that perform the fo
                                 -> performs rotation, scaling, and translation of polylines (if necessary)
                                 -> performs line simplification of polylines using the Douglas-Peucker algorithm (if necessary)
                                 -> converts polylines into shapefiles structures and saves as shapefiles
+
+The "Mex" folder contains C++ executables that are used by the MATLAB scripts. They are from the open-source Complex Shearlet Toolbox (CoSHREM). Please refer to : "Reisenhofer, R., Kiefer, J., and King, E. J.: Shearlet-based detection of flame fronts, Experiments in Fluids, 57, 41, https://doi.org/10.1007/s00348-016-2128-6, 2016" for a detailed description of the CoSHREM toolbox.
+
+
